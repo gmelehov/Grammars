@@ -1,0 +1,1281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ROOT xmlns="Grammars">
+
+
+  <Grammars>
+
+
+    <Grammar for="name" ending="[аейлось]я">
+      <Nom f="я" />
+      <Gen f="и" />
+      <Dat f="е" />
+      <Acc f="ю" />
+      <Ins f="ей" />
+      <Loc f="е" />
+    </Grammar>
+    <Grammar for="name" ending="[бвдеёжзийлмнпрстфхцчшщ]а">
+      <Nom f="а" m="а" />
+      <Gen f="ы" m="ы" />
+      <Dat f="е" m="е" />
+      <Acc f="у" m="у" />
+      <Ins f="ой" m="ой" />
+      <Loc f="е" m="е" />
+    </Grammar>
+    <Grammar for="name" ending="[Ии]я">
+      <Nom f="я" />
+      <Gen f="и" />
+      <Dat f="и" />
+      <Acc f="ю" />
+      <Ins f="ей" />
+      <Loc f="и" />
+    </Grammar>
+    <Grammar for="name" ending="[кг]а">
+      <Nom f="а" />
+      <Gen f="и" />
+      <Dat f="е" />
+      <Acc f="у" />
+      <Ins f="ой" />
+      <Loc f="е" />
+    </Grammar>
+    <Grammar for="name" ending="бель">
+      <Nom f="бель" />
+      <Gen f="бель" />
+      <Dat f="бель" />
+      <Acc f="бель" />
+      <Ins f="бель" />
+      <Loc f="бель" />
+    </Grammar>
+    <Grammar for="name" ending="бет">
+      <Nom f="бет" />
+      <Gen f="бет" />
+      <Dat f="бет" />
+      <Acc f="бет" />
+      <Ins f="бет" />
+      <Loc f="бет" />
+    </Grammar>
+    <Grammar for="name" ending="су">
+      <Nom f="су" />
+      <Gen f="су" />
+      <Dat f="су" />
+      <Acc f="су" />
+      <Ins f="су" />
+      <Loc f="су" />
+    </Grammar>
+    <Grammar for="name" ending="ь">
+      <Nom f="ь" />
+      <Gen f="и" />
+      <Dat f="и" />
+      <Acc f="ь" />
+      <Ins f="ью" />
+      <Loc f="и" />
+    </Grammar>
+    <Grammar for="name" ending="ид">
+      <Nom f="ид" />
+      <Gen f="ид" />
+      <Dat f="ид" />
+      <Acc f="ид" />
+      <Ins f="ид" />
+      <Loc f="ид" />
+    </Grammar>
+    <Grammar for="name" ending="ит">
+      <Nom f="ит" />
+      <Gen f="ит" />
+      <Dat f="ит" />
+      <Acc f="ит" />
+      <Ins f="ит" />
+      <Loc f="ит" />
+    </Grammar>
+    
+    
+    <Grammar for="name" ending="[адиоуя]р">
+      <Nom m="р" />
+      <Gen m="ра" />
+      <Dat m="ру" />
+      <Acc m="ра" />
+      <Ins m="ром" />
+      <Loc m="ре" />
+    </Grammar>
+    <Grammar for="name" ending="[ао]в">
+      <Nom m="в" />
+      <Gen m="ва" />
+      <Dat m="ву" />
+      <Acc m="ва" />
+      <Ins m="вом" />
+      <Loc m="ве" />
+    </Grammar>
+    <Grammar for="name" ending="[бгджзкмнпстфхцчшщ]">
+      <Nom m="" />
+      <Gen m="а" />
+      <Dat m="у" />
+      <Acc m="а" />
+      <Ins m="ом" />
+      <Loc m="е" />
+    </Grammar>
+    <Grammar for="name" ending="[илр]л">
+      <Nom m="л" />
+      <Gen m="ла" />
+      <Dat m="лу" />
+      <Acc m="ла" />
+      <Ins m="лом" />
+      <Loc m="ле" />
+    </Grammar>
+    <Grammar for="name" ending="[мтв]а">
+      <Nom m="а" />
+      <Gen m="ы" />
+      <Dat m="е" />
+      <Acc m="у" />
+      <Ins m="ой" />
+      <Loc m="е" />
+    </Grammar>
+    <Grammar for="name" ending="авел">
+      <Nom m="авел" />
+      <Gen m="авла" />
+      <Dat m="авлу" />
+      <Acc m="авла" />
+      <Ins m="авлом" />
+      <Loc m="авле" />
+    </Grammar>
+    <Grammar for="name" ending="ай">
+      <Nom m="ай" />
+      <Gen m="ая" />
+      <Dat m="аю" />
+      <Acc m="ая" />
+      <Ins m="аем" />
+      <Loc m="ае" />
+    </Grammar>
+    <Grammar for="name" ending="ви">
+      <Nom m="ви" />
+      <Gen m="ви" />
+      <Dat m="ви" />
+      <Acc m="ви" />
+      <Ins m="ви" />
+      <Loc m="ви" />
+    </Grammar>
+    <Grammar for="name" ending="ев">
+      <Nom m="ев" />
+      <Gen m="ьва" />
+      <Dat m="ьву" />
+      <Acc m="ьва" />
+      <Ins m="ьвом" />
+      <Loc m="ьве" />
+    </Grammar>
+    <Grammar for="name" ending="ей">
+      <Nom m="ей" />
+      <Gen m="ея" />
+      <Dat m="ею" />
+      <Acc m="ея" />
+      <Ins m="еем" />
+      <Loc m="ее" />
+    </Grammar>
+    <Grammar for="name" ending="ео">
+      <Nom m="ео" />
+      <Gen m="ео" />
+      <Dat m="ео" />
+      <Acc m="ео" />
+      <Ins m="ео" />
+      <Loc m="ео" />
+    </Grammar>
+    <Grammar for="name" ending="ётр">
+      <Nom m="ётр" />
+      <Gen m="етра" />
+      <Dat m="етру" />
+      <Acc m="етра" />
+      <Ins m="етром" />
+      <Loc m="етре" />
+    </Grammar>
+    <Grammar for="name" ending="етр">
+      <Nom m="етр" />
+      <Gen m="етра" />
+      <Dat m="етру" />
+      <Acc m="етра" />
+      <Ins m="етром" />
+      <Loc m="етре" />
+    </Grammar>
+    <Grammar for="name" ending="ий">
+      <Nom m="ий" />
+      <Gen m="ия" />
+      <Dat m="ию" />
+      <Acc m="ия" />
+      <Ins m="ием" />
+      <Loc m="ии" />
+    </Grammar>
+    <Grammar for="name" ending="ка">
+      <Nom m="ка" />
+      <Gen m="ки" />
+      <Dat m="ке" />
+      <Acc m="ку" />
+      <Ins m="кой" />
+      <Loc m="ке" />
+    </Grammar>
+    <Grammar for="name" ending="ли">
+      <Nom m="ли" f="ли" />
+      <Gen m="ли" f="ли" />
+      <Dat m="ли" f="ли" />
+      <Acc m="ли" f="ли" />
+      <Ins m="ли" f="ли" />
+      <Loc m="ли" f="ли" />
+    </Grammar>
+    <Grammar for="name" ending="мвел">
+      <Nom m="мвел" />
+      <Gen m="мвела" />
+      <Dat m="мвелу" />
+      <Acc m="мвела" />
+      <Ins m="мвелом" />
+      <Loc m="мвеле" />
+    </Grammar>
+    <Grammar for="name" ending="не">
+      <Nom m="не" f="не" />
+      <Gen m="не" f="не" />
+      <Dat m="не" f="не" />
+      <Acc m="не" f="не" />
+      <Ins m="не" f="не" />
+      <Loc m="не" f="не" />
+    </Grammar>
+    <Grammar for="name" ending="нила">
+      <Nom m="нила" />
+      <Gen m="нилы" />
+      <Dat m="ниле" />
+      <Acc m="нилу" />
+      <Ins m="нилой" />
+      <Loc m="ниле" />
+    </Grammar>
+    <Grammar for="name" ending="но">
+      <Nom m="но" />
+      <Gen m="но" />
+      <Dat m="но" />
+      <Acc m="но" />
+      <Ins m="но" />
+      <Loc m="но" />
+    </Grammar>
+    <Grammar for="name" ending="[рт]о">
+      <Nom m="о" />
+      <Gen m="о" />
+      <Dat m="о" />
+      <Acc m="о" />
+      <Ins m="о" />
+      <Loc m="о" />
+    </Grammar>
+    <Grammar for="name" ending="уи">
+      <Nom m="уи" />
+      <Gen m="уи" />
+      <Dat m="уи" />
+      <Acc m="уи" />
+      <Ins m="уи" />
+      <Loc m="уи" />
+    </Grammar>
+    <Grammar for="name" ending="ь">
+      <Nom m="ь" />
+      <Gen m="я" />
+      <Dat m="ю" />
+      <Acc m="я" />
+      <Ins m="ем" />
+      <Loc m="е" />
+    </Grammar>
+    <Grammar for="name" ending="я">
+      <Nom m="я" />
+      <Gen m="и" />
+      <Dat m="е" />
+      <Acc m="ю" />
+      <Ins m="ёй" />
+      <Loc m="е" />
+    </Grammar>
+    
+    
+     
+    <Grammar for="midname" ending="[вчш]на">
+      <Nom f="на" />
+      <Gen f="ны" />
+      <Dat f="не" />
+      <Acc f="ну" />
+      <Ins f="ной" />
+      <Loc f="не" />
+    </Grammar>
+    <Grammar for="midname" ending="[вкмть]ич">
+      <Nom m="ич" />
+      <Gen m="ича" />
+      <Dat m="ичу" />
+      <Acc m="ича" />
+      <Ins m="ичем" />
+      <Loc m="иче" />
+    </Grammar>
+
+
+
+
+    
+    
+    <Grammar for="surname" ending="ава">
+      <Nom m="ава" f="ава" />
+      <Gen m="авы" f="ава" />
+      <Dat m="аве" f="ава" />
+      <Acc m="аву" f="ава" />
+      <Ins m="авой" f="ава" />
+      <Loc m="аве" f="ава" />
+    </Grammar>
+    <Grammar for="surname" ending="аец">
+      <Nom m="аец" f="аец" />
+      <Gen m="айца" f="аец" />
+      <Dat m="айцу" f="аец" />
+      <Acc m="айца" f="аец" />
+      <Ins m="айцем" f="аец" />
+      <Loc m="айце" f="аец" />
+    </Grammar>
+    <Grammar for="surname" ending="ай">
+      <Nom m="ай" f="ай" />
+      <Gen m="ая" f="ай" />
+      <Dat m="аю" f="ай" />
+      <Acc m="ая" f="ай" />
+      <Ins m="аем" f="ай" />
+      <Loc m="ае" f="ай" />
+    </Grammar>
+    <Grammar for="surname" ending="ак">
+      <Nom m="ак" f="ак" />
+      <Gen m="ака" f="ак" />
+      <Dat m="аку" f="ак" />
+      <Acc m="ака" f="ак" />
+      <Ins m="аком" f="ак" />
+      <Loc m="аке" f="ак" />
+    </Grammar>
+    <Grammar for="surname" ending="ач">
+      <Nom m="ач" f="ач" />
+      <Gen m="ача" f="ач" />
+      <Dat m="ачу" f="ач" />
+      <Acc m="ача" f="ач" />
+      <Ins m="ачом" f="ач" />
+      <Loc m="аче" f="ач" />
+    </Grammar>
+    <Grammar for="surname" ending="ба">
+      <Nom m="ба" f="ба" />
+      <Gen m="бы" f="ба" />
+      <Dat m="бе" f="ба" />
+      <Acc m="бу" f="ба" />
+      <Ins m="бой" f="ба" />
+      <Loc m="бе" f="ба" />
+    </Grammar>
+    <Grammar for="surname" ending="бей">
+      <Nom m="бей" f="бей" />
+      <Gen m="бей" f="бей" />
+      <Dat m="бей" f="бей" />
+      <Acc m="бей" f="бей" />
+      <Ins m="бей" f="бей" />
+      <Loc m="бей" f="бей" />
+    </Grammar>
+    <Grammar for="surname" ending="бий">
+      <Nom m="бий" f="бий" />
+      <Gen m="бий" f="бий" />
+      <Dat m="бий" f="бий" />
+      <Acc m="бий" f="бий" />
+      <Ins m="бий" f="бий" />
+      <Loc m="бий" f="бий" />
+    </Grammar>
+    <Grammar for="surname" ending="вец">
+      <Nom m="вец" f="вец" />
+      <Gen m="вца" f="вец" />
+      <Dat m="вцу" f="вец" />
+      <Acc m="вца" f="вец" />
+      <Ins m="вцом" f="вец" />
+      <Loc m="вце" f="вец" />
+    </Grammar>
+    <Grammar for="surname" ending="[бвгдежзийклмнпрстфцч]о">
+      <Nom m="о" f="о" />
+      <Gen m="о" f="о" />
+      <Dat m="о" f="о" />
+      <Acc m="о" f="о" />
+      <Ins m="о" f="о" />
+      <Loc m="о" f="о" />
+    </Grammar>
+    <Grammar for="surname" ending="вий">
+      <Nom m="вий" f="вий" />
+      <Gen m="вий" f="вий" />
+      <Dat m="вий" f="вий" />
+      <Acc m="вий" f="вий" />
+      <Ins m="вий" f="вий" />
+      <Loc m="вий" f="вий" />
+    </Grammar>
+    <Grammar for="surname" ending="гий">
+      <Nom m="гий" f="гий" />
+      <Gen m="гого" f="гий" />
+      <Dat m="гому" f="гий" />
+      <Acc m="гого" f="гий" />
+      <Ins m="гим" f="гий" />
+      <Loc m="гом" f="гий" />
+    </Grammar>
+    <Grammar for="surname" ending="[еиэ]да">
+      <Nom m="да" f="да" />
+      <Gen m="да" f="да" />
+      <Dat m="да" f="да" />
+      <Acc m="да" f="да" />
+      <Ins m="да" f="да" />
+      <Loc m="да" f="да" />
+    </Grammar>
+    <Grammar for="surname" ending="дер">
+      <Nom m="дер" f="дер" />
+      <Gen m="дера" f="дер" />
+      <Dat m="деру" f="дер" />
+      <Acc m="дера" f="дер" />
+      <Ins m="дером" f="дер" />
+      <Loc m="дере" f="дер" />
+    </Grammar>
+    <Grammar for="surname" ending="дец">
+      <Nom m="дец" f="дец" />
+      <Gen m="дца" f="дец" />
+      <Dat m="дцу" f="дец" />
+      <Acc m="дца" f="дец" />
+      <Ins m="дцом" f="дец" />
+      <Loc m="дце" f="дец" />
+    </Grammar>
+    <Grammar for="surname" ending="дзе">
+      <Nom m="дзе" f="дзе" />
+      <Gen m="дзе" f="дзе" />
+      <Dat m="дзе" f="дзе" />
+      <Acc m="дзе" f="дзе" />
+      <Ins m="дзе" f="дзе" />
+      <Loc m="дзе" f="дзе" />
+    </Grammar>
+    <Grammar for="surname" ending="дь">
+      <Nom m="дь" f="дь" />
+      <Gen m="дя" f="дь" />
+      <Dat m="дю" f="дь" />
+      <Acc m="дя" f="дь" />
+      <Ins m="дём" f="дь" />
+      <Loc m="де" f="дь" />
+    </Grammar>
+    <Grammar for="surname" ending="ев">
+      <Nom m="ев" f="ева" />
+      <Gen m="ева" f="евой" />
+      <Dat m="еву" f="евой" />
+      <Acc m="ева" f="еву" />
+      <Ins m="евым" f="евой" />
+      <Loc m="еве" f="евой" />
+    </Grammar>
+    <Grammar for="surname" ending="ел">
+      <Nom m="ел" f="ел" />
+      <Gen m="ел" f="ел" />
+      <Dat m="ел" f="ел" />
+      <Acc m="ел" f="ел" />
+      <Ins m="ел" f="ел" />
+      <Loc m="ел" f="ел" />
+    </Grammar>
+    <Grammar for="surname" ending="[бвклмнпстц]и">
+      <Nom m="и" f="и" />
+      <Gen m="и" f="и" />
+      <Dat m="и" f="и" />
+      <Acc m="и" f="и" />
+      <Ins m="и" f="и" />
+      <Loc m="и" f="и" />
+    </Grammar>
+    <Grammar for="surname" ending="ерг">
+      <Nom m="ерг" f="ерг" />
+      <Gen m="ерга" f="ерг" />
+      <Dat m="ергу" f="ерг" />
+      <Acc m="ерга" f="ерг" />
+      <Ins m="ергом" f="ерг" />
+      <Loc m="ерге" f="ерг" />
+    </Grammar>
+    <Grammar for="surname" ending="[зйлмстш]он">
+      <Nom m="он" f="он" />
+      <Gen m="она" f="он" />
+      <Dat m="ону" f="он" />
+      <Acc m="она" f="он" />
+      <Ins m="оном" f="он" />
+      <Loc m="оне" f="он" />
+    </Grammar>
+    <Grammar for="surname" ending="заде">
+      <Nom m="заде" f="заде" />
+      <Gen m="заде" f="заде" />
+      <Dat m="заде" f="заде" />
+      <Acc m="заде" f="заде" />
+      <Ins m="заде" f="заде" />
+      <Loc m="заде" f="заде" />
+    </Grammar>
+    <Grammar for="surname" ending="иа">
+      <Nom m="иа" f="иа" />
+      <Gen m="иа" f="иа" />
+      <Dat m="иа" f="иа" />
+      <Acc m="иа" f="иа" />
+      <Ins m="иа" f="иа" />
+      <Loc m="иа" f="иа" />
+    </Grammar>
+    <Grammar for="surname" ending="иец">
+      <Nom m="иец" f="иец" />
+      <Gen m="ийца" f="иец" />
+      <Dat m="ийцу" f="иец" />
+      <Acc m="ийца" f="иец" />
+      <Ins m="ийцем" f="иец" />
+      <Loc m="ийце" f="иец" />
+    </Grammar>
+    <Grammar for="surname" ending="ик">
+      <Nom m="ик" f="ик" />
+      <Gen m="ика" f="ик" />
+      <Dat m="ику" f="ик" />
+      <Acc m="ика" f="ик" />
+      <Ins m="иком" f="ик" />
+      <Loc m="ике" f="ик" />
+    </Grammar>
+    <Grammar for="surname" ending="ин">
+      <Nom m="ин" f="ина" />
+      <Gen m="ина" f="иной" />
+      <Dat m="ину" f="иной" />
+      <Acc m="ина" f="ину" />
+      <Ins m="иным" f="иной" />
+      <Loc m="ине" f="иной" />
+    </Grammar>
+    <Grammar for="surname" ending="их">
+      <Nom m="их" f="их" />
+      <Gen m="их" f="их" />
+      <Dat m="их" f="их" />
+      <Acc m="их" f="их" />
+      <Ins m="их" f="их" />
+      <Loc m="их" f="их" />
+    </Grammar>
+    <Grammar for="surname" ending="ич">
+      <Nom m="ич" f="ич" />
+      <Gen m="ича" f="ич" />
+      <Dat m="ичу" f="ич" />
+      <Acc m="ича" f="ич" />
+      <Ins m="ичем" f="ич" />
+      <Loc m="иче" f="ич" />
+    </Grammar>
+    <Grammar for="surname" ending="ия">
+      <Nom m="ия" f="ия" />
+      <Gen m="ии" f="ия" />
+      <Dat m="ии" f="ия" />
+      <Acc m="ию" f="ия" />
+      <Ins m="ией" f="ия" />
+      <Loc m="ии" f="ия" />
+    </Grammar>
+    <Grammar for="surname" ending="кий">
+      <Nom m="кий" f="кая" />
+      <Gen m="кого" f="кой" />
+      <Dat m="кому" f="кой" />
+      <Acc m="кого" f="кую" />
+      <Ins m="ким" f="кой" />
+      <Loc m="ком" f="кой" />
+    </Grammar>
+    <Grammar for="surname" ending="лец">
+      <Nom m="лец" f="лец" />
+      <Gen m="льца" f="лец" />
+      <Dat m="льцу" f="лец" />
+      <Acc m="льца" f="лец" />
+      <Ins m="льцем" f="лец" />
+      <Loc m="льце" f="лец" />
+    </Grammar>
+    <Grammar for="surname" ending="лий">
+      <Nom m="лий" f="лий" />
+      <Gen m="лия" f="лий" />
+      <Dat m="лию" f="лий" />
+      <Acc m="лия" f="лий" />
+      <Ins m="лием" f="лий" />
+      <Loc m="лие" f="лий" />
+    </Grammar>
+    <Grammar for="surname" ending="ль">
+      <Nom m="ль" f="ль" />
+      <Gen m="ля" f="ль" />
+      <Dat m="лю" f="ль" />
+      <Acc m="ля" f="ль" />
+      <Ins m="лем" f="ль" />
+      <Loc m="ле" f="ль" />
+    </Grammar>
+    <Grammar for="surname" ending="льц">
+      <Nom m="льц" f="льц" />
+      <Gen m="льца" f="льц" />
+      <Dat m="льцу" f="льц" />
+      <Acc m="льца" f="льц" />
+      <Ins m="льцем" f="льц" />
+      <Loc m="льце" f="льц" />
+    </Grammar>
+    <Grammar for="surname" ending="ля">
+      <Nom m="ля" f="ля" />
+      <Gen m="ли" f="ли" />
+      <Dat m="ле" f="ле" />
+      <Acc m="лю" f="лю" />
+      <Ins m="лей" f="лей" />
+      <Loc m="ле" f="ле" />
+    </Grammar>
+    <Grammar for="surname" ending="ман">
+      <Nom m="ман" f="ман" />
+      <Gen m="мана" f="ман" />
+      <Dat m="ману" f="ман" />
+      <Acc m="мана" f="ман" />
+      <Ins m="маном" f="ман" />
+      <Loc m="мане" f="ман" />
+    </Grammar>
+    <Grammar for="surname" ending="нен">
+      <Nom m="нен" f="нен" />
+      <Gen m="нена" f="нен" />
+      <Dat m="нену" f="нен" />
+      <Acc m="нена" f="нен" />
+      <Ins m="неном" f="нен" />
+      <Loc m="нене" f="нен" />
+    </Grammar>
+    <Grammar for="surname" ending="нец">
+      <Nom m="нец" f="нец" />
+      <Gen m="нца" f="нец" />
+      <Dat m="нцу" f="нец" />
+      <Acc m="нца" f="нец" />
+      <Ins m="нцем" f="нец" />
+      <Loc m="нце" f="нец" />
+    </Grammar>
+    <Grammar for="surname" ending="онь">
+      <Nom m="онь" f="онь" />
+      <Gen m="оня" f="онь" />
+      <Dat m="оню" f="онь" />
+      <Acc m="оня" f="онь" />
+      <Ins m="онём" f="онь" />
+      <Loc m="оне" f="онь" />
+    </Grammar>
+    <Grammar for="surname" ending="ань">
+      <Nom m="ань" f="ань" />
+      <Gen m="аня" f="ань" />
+      <Dat m="аню" f="ань" />
+      <Acc m="аня" f="ань" />
+      <Ins m="анем" f="ань" />
+      <Loc m="ане" f="ань" />
+    </Grammar>
+    <Grammar for="surname" ending="янь">
+      <Nom m="янь" f="янь" />
+      <Gen m="янь" f="янь" />
+      <Dat m="янь" f="янь" />
+      <Acc m="янь" f="янь" />
+      <Ins m="янь" f="янь" />
+      <Loc m="янь" f="янь" />
+    </Grammar>
+    <Grammar for="surname" ending="ов">
+      <Nom m="ов" f="ова" />
+      <Gen m="ова" f="овой" />
+      <Dat m="ову" f="овой" />
+      <Acc m="ова" f="ову" />
+      <Ins m="овым" f="овой" />
+      <Loc m="ове" f="овой" />
+    </Grammar>
+    <Grammar for="surname" ending="оглы">
+      <Nom m="оглы" f="оглы" />
+      <Gen m="оглы" f="оглы" />
+      <Dat m="оглы" f="оглы" />
+      <Acc m="оглы" f="оглы" />
+      <Ins m="оглы" f="оглы" />
+      <Loc m="оглы" f="оглы" />
+    </Grammar>
+    <Grammar for="surname" ending="оз">
+      <Nom m="оз" f="оз" />
+      <Gen m="оза" f="оз" />
+      <Dat m="озу" f="оз" />
+      <Acc m="оза" f="оз" />
+      <Ins m="озом" f="оз" />
+      <Loc m="озе" f="оз" />
+    </Grammar>
+    <Grammar for="surname" ending="ой">
+      <Nom m="ой" f="ая" />
+      <Gen m="ого" f="ой" />
+      <Dat m="ому" f="ой" />
+      <Acc m="ого" f="ую" />
+      <Ins m="им" f="ой" />
+      <Loc m="ом" f="ой" />
+    </Grammar>
+    <Grammar for="surname" ending="рий">
+      <Nom m="рий" f="рий" />
+      <Gen m="рий" f="рий" />
+      <Dat m="рий" f="рий" />
+      <Acc m="рий" f="рий" />
+      <Ins m="рий" f="рий" />
+      <Loc m="рий" f="рий" />
+    </Grammar>
+    <Grammar for="surname" ending="рс">
+      <Nom m="рс" f="рс" />
+      <Gen m="рса" f="рс" />
+      <Dat m="рсу" f="рс" />
+      <Acc m="рса" f="рс" />
+      <Ins m="рсом" f="рс" />
+      <Loc m="рсе" f="рс" />
+    </Grammar>
+    <Grammar for="surname" ending="рь">
+      <Nom m="рь" f="рь" />
+      <Gen m="ря" f="рь" />
+      <Dat m="рю" f="рь" />
+      <Acc m="ря" f="рь" />
+      <Ins m="рём" f="рь" />
+      <Loc m="ре" f="рь" />
+    </Grammar>
+    <Grammar for="surname" ending="сен">
+      <Nom m="сен" f="сен" />
+      <Gen m="сена" f="сен" />
+      <Dat m="сену" f="сен" />
+      <Acc m="сена" f="сен" />
+      <Ins m="сеном" f="сен" />
+      <Loc m="сене" f="сен" />
+    </Grammar>
+    <Grammar for="surname" ending="сий">
+      <Nom m="сий" f="сий" />
+      <Gen m="сия" f="сий" />
+      <Dat m="сию" f="сий" />
+      <Acc m="сия" f="сий" />
+      <Ins m="сием" f="сий" />
+      <Loc m="сие" f="сий" />
+    </Grammar>
+    <Grammar for="surname" ending="тий">
+      <Nom m="тий" f="тий" />
+      <Gen m="тий" f="тий" />
+      <Dat m="тий" f="тий" />
+      <Acc m="тий" f="тий" />
+      <Ins m="тий" f="тий" />
+      <Loc m="тий" f="тий" />
+    </Grammar>
+    <Grammar for="surname" ending="тор">
+      <Nom m="тор" f="тор" />
+      <Gen m="тора" f="тор" />
+      <Dat m="тору" f="тор" />
+      <Acc m="тора" f="тор" />
+      <Ins m="тором" f="тор" />
+      <Loc m="торе" f="тор" />
+    </Grammar>
+    <Grammar for="surname" ending="уа">
+      <Nom m="уа" f="уа" />
+      <Gen m="уа" f="уа" />
+      <Dat m="уа" f="уа" />
+      <Acc m="уа" f="уа" />
+      <Ins m="уа" f="уа" />
+      <Loc m="уа" f="уа" />
+    </Grammar>
+    <Grammar for="surname" ending="ук">
+      <Nom m="ук" f="ук" />
+      <Gen m="ука" f="ук" />
+      <Dat m="уку" f="ук" />
+      <Acc m="ука" f="ук" />
+      <Ins m="уком" f="ук" />
+      <Loc m="уке" f="ук" />
+    </Grammar>
+    <Grammar for="surname" ending="ула">
+      <Nom m="ула" f="ула" />
+      <Gen m="улы" f="ула" />
+      <Dat m="уле" f="ула" />
+      <Acc m="улу" f="ула" />
+      <Ins m="улой" f="ула" />
+      <Loc m="уле" f="ула" />
+    </Grammar>
+    <Grammar for="surname" ending="ус">
+      <Nom m="ус" f="ус" />
+      <Gen m="уса" f="ус" />
+      <Dat m="усу" f="ус" />
+      <Acc m="уса" f="ус" />
+      <Ins m="усом" f="ус" />
+      <Loc m="усе" f="ус" />
+    </Grammar>
+    <Grammar for="surname" ending="рц">
+      <Nom m="рц" f="рц" />
+      <Gen m="рца" f="рц" />
+      <Dat m="рцу" f="рц" />
+      <Acc m="рца" f="рц" />
+      <Ins m="рцем" f="рц" />
+      <Loc m="рце" f="рц" />
+    </Grammar>
+    <Grammar for="surname" ending="ша">
+      <Nom m="ша" f="ша" />
+      <Gen m="ши" f="ши" />
+      <Dat m="ше" f="ше" />
+      <Acc m="шу" f="шу" />
+      <Ins m="шой" f="шой" />
+      <Loc m="ше" f="ше" />
+    </Grammar>
+    <Grammar for="surname" ending="ый">
+      <Nom m="ый" f="ая" />
+      <Gen m="ого" f="ой" />
+      <Dat m="ому" f="ой" />
+      <Acc m="ого" f="ую" />
+      <Ins m="ым" f="ой" />
+      <Loc m="ом" f="ой" />
+    </Grammar>
+    <Grammar for="surname" ending="ын">
+      <Nom m="ын" f="ына" />
+      <Gen m="ына" f="ыной" />
+      <Dat m="ыну" f="ыной" />
+      <Acc m="ына" f="ыну" />
+      <Ins m="ыным" f="ыной" />
+      <Loc m="ыне" f="ыной" />
+    </Grammar>
+    <Grammar for="surname" ending="ых">
+      <Nom m="ых" f="ых" />
+      <Gen m="ых" f="ых" />
+      <Dat m="ых" f="ых" />
+      <Acc m="ых" f="ых" />
+      <Ins m="ых" f="ых" />
+      <Loc m="ых" f="ых" />
+    </Grammar>
+    <Grammar for="surname" ending="э">
+      <Nom m="э" f="э" />
+      <Gen m="э" f="э" />
+      <Dat m="э" f="э" />
+      <Acc m="э" f="э" />
+      <Ins m="э" f="э" />
+      <Loc m="э" f="э" />
+    </Grammar>
+    <Grammar for="surname" ending="е">
+      <Nom m="е" f="е" />
+      <Gen m="е" f="е" />
+      <Dat m="е" f="е" />
+      <Acc m="е" f="е" />
+      <Ins m="е" f="е" />
+      <Loc m="е" f="е" />
+    </Grammar>
+    <Grammar for="surname" ending="юк">
+      <Nom m="юк" f="юк" />
+      <Gen m="юка" f="юк" />
+      <Dat m="юку" f="юк" />
+      <Acc m="юка" f="юк" />
+      <Ins m="юком" f="юк" />
+      <Loc m="юке" f="юк" />
+    </Grammar>
+    <Grammar for="surname" ending="юх">
+      <Nom m="юх" f="юх" />
+      <Gen m="юха" f="юх" />
+      <Dat m="юху" f="юх" />
+      <Acc m="юха" f="юх" />
+      <Ins m="юхом" f="юх" />
+      <Loc m="юхе" f="юх" />
+    </Grammar>
+    <Grammar for="surname" ending="яка">
+      <Nom m="яка" f="яка" />
+      <Gen m="яки" f="яка" />
+      <Dat m="яке" f="яка" />
+      <Acc m="яку" f="яка" />
+      <Ins m="якой" f="яка" />
+      <Loc m="яке" f="яка" />
+    </Grammar>
+    <Grammar for="surname" ending="ян">
+      <Nom m="ян" f="ян" />
+      <Gen m="яна" f="ян" />
+      <Dat m="яну" f="ян" />
+      <Acc m="яна" f="ян" />
+      <Ins m="яном" f="ян" />
+      <Loc m="яне" f="ян" />
+    </Grammar>
+    <Grammar for="surname" ending="ёв">
+      <Nom m="ёв" f="ёва" />
+      <Gen m="ёва" f="ёвой" />
+      <Dat m="ёву" f="ёвой" />
+      <Acc m="ёва" f="ёву" />
+      <Ins m="ёвым" f="ёвой" />
+      <Loc m="ёве" f="ёвой" />
+    </Grammar>
+    <Grammar for="surname" ending="як">
+      <Nom m="як" f="як" />
+      <Gen m="яка" f="як" />
+      <Dat m="яку" f="як" />
+      <Acc m="яка" f="як" />
+      <Ins m="яком" f="як" />
+      <Loc m="яке" f="як" />
+    </Grammar>
+    <Grammar for="surname" ending="щ">
+      <Nom m="щ" f="щ" />
+      <Gen m="ща" f="щ" />
+      <Dat m="щу" f="щ" />
+      <Acc m="ща" f="щ" />
+      <Ins m="щом" f="щ" />
+      <Loc m="ще" f="щ" />
+    </Grammar>
+    <Grammar for="surname" ending="ыч">
+      <Nom m="ыч" f="ыч" />
+      <Gen m="ыча" f="ыч" />
+      <Dat m="ычу" f="ыч" />
+      <Acc m="ыча" f="ыч" />
+      <Ins m="ычом" f="ыч" />
+      <Loc m="ыче" f="ыч" />
+    </Grammar>
+    
+  </Grammars>
+
+
+  
+  
+  <Names>
+    <M.Name val="Абрам" m.mid="Абрамович" f.mid="Абрамовна"/>
+    <M.Name val="Август" m.mid="Августович" f.mid="Августовна"/>
+    <F.Name val="Августа"/>
+    <F.Name val="Авдотья"/>
+    <M.Name val="Авраам" m.mid="Авраамович" f.mid="Авраамовна"/>
+    <M.Name val="Автандил" m.mid="Автандилович" f.mid="Автандиловна"/>
+    <F.Name val="Агата"/>
+    <F.Name val="Аглая"/>
+    <F.Name val="Агния"/>
+    <F.Name val="Ада"/>
+    <M.Name val="Адальберт" m.mid="Адальбертович" f.mid="Адальбертовна"/>
+    <M.Name val="Адам" m.mid="Адамович" f.mid="Адамовна"/>
+    <F.Name val="Аделаида"/>
+    <F.Name val="Аделина"/>
+    <F.Name val="Азалия"/>
+    <M.Name val="Акакий" m.mid="Акакиевич" f.mid="Акакиевна"/>
+    <M.Name val="Аким" m.mid="Акимович" f.mid="Акимовна"/>
+    <M.Name val="Акоп" m.mid="Акопович" f.mid="Акоповна"/>
+    <F.Name val="Аксинья"/>
+    <F.Name val="Алевтина"/>
+    <M.Name val="Александр" m.mid="Александрович" f.mid="Александровна"/>
+    <F.Name val="Александра"/>
+    <M.Name val="Алексей" m.mid="Алексеевич" f.mid="Алексеевна"/>
+    <F.Name val="Алёна"/>
+    <M.Name val="Али" m.mid="Алиевич" f.mid="Алиевна"/>
+    <F.Name val="Алика"/>
+    <F.Name val="Алина"/>
+    <F.Name val="Алиса"/>
+    <F.Name val="Алла"/>
+    <F.Name val="Алсу"/>
+    <M.Name val="Альберт" m.mid="Альбертович" f.mid="Альбертовна"/>
+    <F.Name val="Амалия"/>
+    <F.Name val="Анастасия"/>
+    <M.Name val="Анатолий" m.mid="Анатольевич" f.mid="Анатольевна"/>
+    <F.Name val="Ангелина"/>
+    <M.Name val="Андрей" m.mid="Андреевич" f.mid="Андреевна"/>
+    <M.Name val="Андрон" m.mid="Андронович" f.mid="Андроновна"/>
+    <F.Name val="Анжелика"/>
+    <F.Name val="Анна"/>
+    <M.Name val="Антон" m.mid="Антонович" f.mid="Антоновна"/>
+    <F.Name val="Антонина"/>
+    <F.Name val="Анфиса"/>
+    <M.Name val="Аполлинарий" m.mid="Аполлинарьевич" f.mid="Аполлинарьевна"/>
+    <M.Name val="Аполлон" m.mid="Аполлонович" f.mid="Аполлоновна"/>
+    <F.Name val="Арабелла"/>
+    <M.Name val="Аристарх" m.mid="Аристархович" f.mid="Аристарховна"/>
+    <M.Name val="Аристотель" m.mid="Аристотелевич" f.mid="Аристотелевна"/>
+    <F.Name val="Арина"/>
+    <M.Name val="Аркадий" m.mid="Аркадьевич" f.mid="Аркадьевна"/>
+    <M.Name val="Арман" m.mid="Арманович" f.mid="Армановна"/>
+    <M.Name val="Армен" m.mid="Арменович" f.mid="Арменовна"/>
+    <M.Name val="Арсений" m.mid="Арсеньевич" f.mid="Арсеньевна"/>
+    <M.Name val="Артем" m.mid="Артемович" f.mid="Артемовна"/>
+    <M.Name val="Артём" m.mid="Артёмович" f.mid="Артёмовна"/>
+    <M.Name val="Артур" m.mid="Артурович" f.mid="Артуровна"/>
+    <M.Name val="Архип" m.mid="Архипович" f.mid="Архиповна"/>
+    <M.Name val="Аскольд" m.mid="Аскольдович" f.mid="Аскольдовна"/>
+    <F.Name val="Ася"/>
+    <M.Name val="Ахмад" m.mid="Ахмадович" f.mid="Ахмадовна"/>
+    <M.Name val="Ахмат" m.mid="Ахматович" f.mid="Ахматовна"/>
+    <M.Name val="Ахмед" m.mid="Ахмедович" f.mid="Ахмедовна"/>
+    <M.Name val="Ахмет" m.mid="Ахметович" f.mid="Ахметовна"/>
+    <F.Name val="Белла"/>
+    <M.Name val="Богдан" m.mid="Богданович" f.mid="Богдановна"/>
+    <M.Name val="Борис" m.mid="Борисович" f.mid="Борисовна"/>
+    <M.Name val="Борислав" m.mid="Бориславович" f.mid="Бориславовна"/>
+    <F.Name val="Бриджит"/>
+    <M.Name val="Бронислав" m.mid="Брониславович" f.mid="Брониславовна"/>
+    <M.Name val="Бруно" m.mid="Брунович" f.mid="Бруновна"/>
+    <M.Name val="Булат" m.mid="Булатович" f.mid="Булатовна"/>
+    <M.Name val="Вадим" m.mid="Вадимович" f.mid="Вадимовна"/>
+    <M.Name val="Валентин" m.mid="Валентинович" f.mid="Валентиновна"/>
+    <F.Name val="Валентина"/>
+    <M.Name val="Валерий" m.mid="Валерьевич" f.mid="Валерьевна"/>
+    <F.Name val="Валерия"/>
+    <F.Name val="Ванда"/>
+    <F.Name val="Ванесса"/>
+    <F.Name val="Варвара"/>
+    <M.Name val="Василий" m.mid="Васильевич" f.mid="Васильевна"/>
+    <F.Name val="Василиса"/>
+    <F.Name val="Васса"/>
+    <M.Name val="Вениамин" m.mid="Вениаминович" f.mid="Вениаминовна"/>
+    <F.Name val="Венера"/>
+    <F.Name val="Вера"/>
+    <F.Name val="Вероника"/>
+    <M.Name val="Викентий" m.mid="Викентьевич" f.mid="Викентьевна"/>
+    <M.Name val="Виктор" m.mid="Викторович" f.mid="Викторовна"/>
+    <F.Name val="Виктория"/>
+    <M.Name val="Вильгельм" m.mid="Вильгельмович" f.mid="Вильгельмовна"/>
+    <F.Name val="Виола"/>
+    <F.Name val="Виолетта"/>
+    <M.Name val="Виссарион" m.mid="Виссарионович" f.mid="Виссарионовна"/>
+    <M.Name val="Виталий" m.mid="Витальевич" f.mid="Витальевна"/>
+    <M.Name val="Витовт" m.mid="Витовтович" f.mid="Витовтовна"/>
+    <M.Name val="Витольд" m.mid="Витольдович" f.mid="Витольдовна"/>
+    <M.Name val="Владимир" m.mid="Владимирович" f.mid="Владимировна"/>
+    <M.Name val="Владислав" m.mid="Владиславович" f.mid="Владиславовна"/>
+    <M.Name val="Владлен" m.mid="Владленович" f.mid="Владленовна"/>
+    <M.Name val="Всеволод" m.mid="Всеволодович" f.mid="Всеволодовна"/>
+    <M.Name val="Вячеслав" m.mid="Вячеславович" f.mid="Вячеславовна"/>
+    <M.Name val="Гавриил" m.mid="Гаврилович" f.mid="Гавриловна"/>
+    <F.Name val="Галина"/>
+    <M.Name val="Гарри" m.mid="Гарриевич" f.mid="Гарриевна"/>
+    <F.Name val="Гаяне"/>
+    <F.Name val="Гаянэ"/>
+    <M.Name val="Геннадий" m.mid="Геннадьевич" f.mid="Геннадьевна"/>
+    <F.Name val="Генриетта"/>
+    <M.Name val="Генрик" m.mid="Генрикович" f.mid="Генриковна"/>
+    <M.Name val="Генрих" m.mid="Генрихович" f.mid="Генриховна"/>
+    <M.Name val="Георгий" m.mid="Георгиевич" f.mid="Георгиевна"/>
+    <M.Name val="Герасим" m.mid="Герасимович" f.mid="Герасимовна"/>
+    <M.Name val="Герман" m.mid="Германович" f.mid="Германовна"/>
+    <M.Name val="Глеб" m.mid="Глебович" f.mid="Глебовна"/>
+    <M.Name val="Гордей" m.mid="Гордеевич" f.mid="Гордеевна"/>
+    <F.Name val="Грета"/>
+    <M.Name val="Григорий" m.mid="Григорьевич" f.mid="Григорьевна"/>
+    <M.Name val="Гунар" m.mid="Гунарович" f.mid="Гунаровна"/>
+    <M.Name val="Давид" m.mid="Давидович" f.mid="Давидовна"/>
+    <M.Name val="Дамир" m.mid="Дамирович" f.mid="Дамировна"/>
+    <F.Name val="Дана"/>
+    <M.Name val="Даниил" m.mid="Даниилович" f.mid="Данииловна"/>
+    <M.Name val="Данила" m.mid="Данилович" f.mid="Даниловна"/>
+    <M.Name val="Данияр" m.mid="Даниярович" f.mid="Данияровна"/>
+    <F.Name val="Дарья"/>
+    <M.Name val="Демьян" m.mid="Демьянович" f.mid="Демьяновна"/>
+    <M.Name val="Денис" m.mid="Денисович" f.mid="Денисовна"/>
+    <F.Name val="Диана"/>
+    <F.Name val="Дина"/>
+    <M.Name val="Дмитрий" m.mid="Дмитриевич" f.mid="Дмитриевна"/>
+    <M.Name val="Дорофей" m.mid="Дорофеевич" f.mid="Дорофеевна"/>
+    <F.Name val="Ева"/>
+    <M.Name val="Евгений" m.mid="Евгеньевич" f.mid="Евгеньевна"/>
+    <F.Name val="Евгения"/>
+    <F.Name val="Евдокия"/>
+    <M.Name val="Евсей" m.mid="Евсеевич" f.mid="Евсеевна"/>
+    <M.Name val="Егор" m.mid="Егорович" f.mid="Егоровна"/>
+    <F.Name val="Екатерина"/>
+    <F.Name val="Елена"/>
+    <F.Name val="Елизавета"/>
+    <M.Name val="Емельян" m.mid="Емельянович" f.mid="Емельяновна"/>
+    <M.Name val="Ермолай" m.mid="Ермолаевич" f.mid="Ермолаевна"/>
+    <F.Name val="Есения"/>
+    <M.Name val="Ефим" m.mid="Ефимович" f.mid="Ефимовна"/>
+    <M.Name val="Ефрем" m.mid="Ефремович" f.mid="Ефремовна"/>
+    <F.Name val="Жанна"/>
+    <M.Name val="Заур" m.mid="Заурович" f.mid="Зауровна"/>
+    <M.Name val="Захар" m.mid="Захарович" f.mid="Захаровна"/>
+    <F.Name val="Земфира"/>
+    <F.Name val="Зинаида"/>
+    <M.Name val="Зиновий" m.mid="Зиновьевич" f.mid="Зиновьевна"/>
+    <F.Name val="Зоя"/>
+    <M.Name val="Зураб" m.mid="Зурабович" f.mid="Зурабовна"/>
+    <M.Name val="Ибрагим" m.mid="Ибрагимович" f.mid="Ибрагимовна"/>
+    <M.Name val="Иван" m.mid="Иванович" f.mid="Ивановна"/>
+    <M.Name val="Игнат" m.mid="Игнатович" f.mid="Игнатовна"/>
+    <M.Name val="Игнатий" m.mid="Игнатьевич" f.mid="Игнатьевна"/>
+    <M.Name val="Игорь" m.mid="Игоревич" f.mid="Игоревна"/>
+    <F.Name val="Изабелла"/>
+    <M.Name val="Израиль" m.mid="Израилевич" f.mid="Израилевна"/>
+    <F.Name val="Илона"/>
+    <M.Name val="Ильдар" m.mid="Ильдарович" f.mid="Ильдаровна"/>
+    <M.Name val="Илья" m.mid="Ильич" f.mid="Ильинична"/>
+    <M.Name val="Иммануил" m.mid="Иммануилович" f.mid="Иммануиловна"/>
+    <F.Name val="Инга"/>
+    <F.Name val="Ингрид"/>
+    <F.Name val="Инесса"/>
+    <F.Name val="Инна"/>
+    <M.Name val="Иннокентий" m.mid="Иннокентьевич" f.mid="Иннокентьевна"/>
+    <M.Name val="Иоанн" m.mid="Иоаннович" f.mid="Иоанновна"/>
+    <M.Name val="Иосиф" m.mid="Иосифович" f.mid="Иосифовна"/>
+    <M.Name val="Ипполит" m.mid="Ипполитович" f.mid="Ипполитовна"/>
+    <M.Name val="Ираклий" m.mid="Ираклиевич" f.mid="Ираклиевна"/>
+    <F.Name val="Ирина"/>
+    <F.Name val="Ирма"/>
+    <M.Name val="Иса" m.mid="Исаевич" f.mid="Исаевна"/>
+    <M.Name val="Исаак" m.mid="Исакович" f.mid="Исаковна"/>
+    <M.Name val="Исмаил" m.mid="Исмаилович" f.mid="Исмаиловна"/>
+    <M.Name val="Исраэль" m.mid="Исраэлевич" f.mid="Исраэлевна"/>
+    <M.Name val="Ицхак" m.mid="Ицхакович" f.mid="Ицхаковна"/>
+    <F.Name val="Ия"/>
+    <M.Name val="Казимир" m.mid="Казимирович" f.mid="Казимировна"/>
+    <M.Name val="Камиль" m.mid="Камильевич" f.mid="Камильевна"/>
+    <M.Name val="Карен" m.mid="Каренович" f.mid="Кареновна"/>
+    <F.Name val="Карина"/>
+    <M.Name val="Карл" m.mid="Карлович" f.mid="Карловна"/>
+    <M.Name val="Карп" m.mid="Карпович" f.mid="Карповна"/>
+    <M.Name val="Керим" m.mid="Керимович" f.mid="Керимовна"/>
+    <F.Name val="Кира"/>
+    <M.Name val="Кирилл" m.mid="Кириллович" f.mid="Кирилловна"/>
+    <F.Name val="Клара"/>
+    <M.Name val="Клим" m.mid="Климович" f.mid="Климовна"/>
+    <M.Name val="Константин" m.mid="Константинович" f.mid="Константиновна"/>
+    <M.Name val="Корней" m.mid="Корнеевич" f.mid="Корнеевна"/>
+    <F.Name val="Кристина"/>
+    <F.Name val="Ксения"/>
+    <M.Name val="Кузьма" m.mid="Кузьмич" f.mid="Кузьминична"/>
+    <M.Name val="Лаврентий" m.mid="Лаврентьевич" f.mid="Лаврентьевна"/>
+    <F.Name val="Лада"/>
+    <M.Name val="Лазарь" m.mid="Лазаревич" f.mid="Лазаревна"/>
+    <F.Name val="Лариса"/>
+    <M.Name val="Лев" m.mid="Львович" f.mid="Львовна"/>
+    <M.Name val="Леонард" m.mid="Леонардович" f.mid="Леонардовна"/>
+    <M.Name val="Леонид" m.mid="Леонидович" f.mid="Леонидовна"/>
+    <M.Name val="Леопольд" m.mid="Леопольдович" f.mid="Леопольдовна"/>
+    <F.Name val="Лидия"/>
+    <F.Name val="Лика"/>
+    <F.Name val="Лилия"/>
+    <F.Name val="Лина"/>
+    <F.Name val="Линда"/>
+    <F.Name val="Лия"/>
+    <F.Name val="Лолита"/>
+    <F.Name val="Луиза"/>
+    <M.Name val="Лука" m.mid="Лукич" f.mid="Лукинишна"/>
+    <M.Name val="Лукьян" m.mid="Лукьянович" f.mid="Лукьяновна"/>
+    <F.Name val="Любовь"/>
+    <M.Name val="Людвиг" m.mid="Людвигович" f.mid="Людвиговна"/>
+    <F.Name val="Людмила"/>
+    <M.Name val="Люциан" m.mid="Люцианович" f.mid="Люциановна"/>
+    <F.Name val="Магда"/>
+    <F.Name val="Майя"/>
+    <M.Name val="Макар" m.mid="Макарович" f.mid="Макаровна"/>
+    <M.Name val="Максим" m.mid="Максимович" f.mid="Максимовна"/>
+    <M.Name val="Максимилиан" m.mid="Максимилианович" f.mid="Максимилиановна"/>
+    <F.Name val="Малика"/>
+    <M.Name val="Мамед" m.mid="Мамедович" f.mid="Мамедовна"/>
+    <M.Name val="Марат" m.mid="Маратович" f.mid="Маратовна"/>
+    <F.Name val="Маргарита"/>
+    <F.Name val="Марика"/>
+    <F.Name val="Марина"/>
+    <F.Name val="Мариэтта"/>
+    <F.Name val="Мария"/>
+    <M.Name val="Марк" m.mid="Маркович" f.mid="Марковна"/>
+    <F.Name val="Марта"/>
+    <F.Name val="Марфа"/>
+    <M.Name val="Матвей" m.mid="Матвеевич" f.mid="Матвеевна"/>
+    <M.Name val="Махмуд" m.mid="Махмудович" f.mid="Махмудовна"/>
+    <M.Name val="Мераб" m.mid="Мерабович" f.mid="Мерабовна"/>
+    <F.Name val="Милана"/>
+    <F.Name val="Милена"/>
+    <M.Name val="Мирон" m.mid="Миронович" f.mid="Мироновна"/>
+    <M.Name val="Мирослав" m.mid="Мирославович" f.mid="Мирославовна"/>
+    <F.Name val="Мирослава"/>
+    <F.Name val="Мирра"/>
+    <M.Name val="Михаил" m.mid="Михайлович" f.mid="Михайловна"/>
+    <M.Name val="Моисей" m.mid="Моисеевич" f.mid="Моисеевна"/>
+    <F.Name val="Моника"/>
+    <M.Name val="Мстислав" m.mid="Мстиславович" f.mid="Мстиславовна"/>
+    <M.Name val="Мурад" m.mid="Мурадович" f.mid="Мурадовна"/>
+    <M.Name val="Мурат" m.mid="Муратович" f.mid="Муратовна"/>
+    <F.Name val="Надежда"/>
+    <M.Name val="Назар" m.mid="Назарович" f.mid="Назаровна"/>
+    <M.Name val="Наиль" m.mid="Наильевич" f.mid="Наильевна"/>
+    <F.Name val="Наиля"/>
+    <F.Name val="Наталия"/>
+    <F.Name val="Наталья"/>
+    <M.Name val="Натан" m.mid="Натанович" f.mid="Натановна"/>
+    <F.Name val="Нелли"/>
+    <M.Name val="Нестор" m.mid="Несторович" f.mid="Несторовна"/>
+    <F.Name val="Ника"/>
+    <M.Name val="Никандр" m.mid="Никандрович" f.mid="Никандровна"/>
+    <M.Name val="Никанор" m.mid="Никанорович" f.mid="Никаноровна"/>
+    <M.Name val="Никита" m.mid="Никитич" f.mid="Никитишна"/>
+    <M.Name val="Никифор" m.mid="Никифорович" f.mid="Никифоровна"/>
+    <M.Name val="Никодим" m.mid="Никодимович" f.mid="Никодимовна"/>
+    <M.Name val="Николай" m.mid="Николаевич" f.mid="Николаевна"/>
+    <F.Name val="Нина"/>
+    <F.Name val="Нинель"/>
+    <M.Name val="Нобель" m.mid="Нобелевич" f.mid="Нобелевна"/>
+    <F.Name val="Нонна"/>
+    <M.Name val="Ованес" m.mid="Ованесович" f.mid="Ованесовна"/>
+    <F.Name val="Оксана"/>
+    <M.Name val="Олег" m.mid="Олегович" f.mid="Олеговна"/>
+    <F.Name val="Олеся"/>
+    <F.Name val="Ольга"/>
+    <M.Name val="Осип" m.mid="Осипович" f.mid="Осиповна"/>
+    <M.Name val="Оскар" m.mid="Оскарович" f.mid="Оскаровна"/>
+    <M.Name val="Остап" m.mid="Остапович" f.mid="Остаповна"/>
+    <M.Name val="Отто" m.mid="Оттович" f.mid="Оттовна"/>
+    <M.Name val="Павел" m.mid="Павлович" f.mid="Павловна"/>
+    <F.Name val="Пелагея"/>
+    <M.Name val="Петр" m.mid="Петрович" f.mid="Петровна"/>
+    <M.Name val="Пётр" m.mid="Петрович" f.mid="Петровна"/>
+    <M.Name val="Платон" m.mid="Платонович" f.mid="Платоновна"/>
+    <F.Name val="Полина"/>
+    <M.Name val="Порфирий" m.mid="Порфирьевич" f.mid="Порфирьевна"/>
+    <M.Name val="Потап" m.mid="Потапович" f.mid="Потаповна"/>
+    <F.Name val="Прасковья"/>
+    <M.Name val="Прохор" m.mid="Прохорович" f.mid="Прохоровна"/>
+    <F.Name val="Рада"/>
+    <F.Name val="Раиса"/>
+    <M.Name val="Рамазан" m.mid="Рамазанович" f.mid="Рамазановна"/>
+    <M.Name val="Рафаэль" m.mid="Рафаэлевич" f.mid="Рафаэлевна"/>
+    <M.Name val="Рафик" m.mid="Рафикович" f.mid="Рафиковна"/>
+    <M.Name val="Рашид" m.mid="Рашидович" f.mid="Рашидовна"/>
+    <M.Name val="Реваз" m.mid="Ревазович" f.mid="Ревазовна"/>
+    <F.Name val="Регина"/>
+    <F.Name val="Рената"/>
+    <F.Name val="Римма"/>
+    <F.Name val="Рина"/>
+    <M.Name val="Ринат" m.mid="Ринатович" f.mid="Ринатовна"/>
+    <M.Name val="Роберт" m.mid="Робертович" f.mid="Робертовна"/>
+    <M.Name val="Родион" m.mid="Родионович" f.mid="Родионовна"/>
+    <F.Name val="Роза"/>
+    <M.Name val="Роман" m.mid="Романович" f.mid="Романовна"/>
+    <M.Name val="Ростислав" m.mid="Ростиславович" f.mid="Ростиславовна"/>
+    <M.Name val="Рубен" m.mid="Рубенович" f.mid="Рубеновна"/>
+    <M.Name val="Рудольф" m.mid="Рудольфович" f.mid="Рудольфовна"/>
+    <M.Name val="Руслан" m.mid="Русланович" f.mid="Руслановна"/>
+    <M.Name val="Рустам" m.mid="Рустамович" f.mid="Рустамовна"/>
+    <M.Name val="Рустем" m.mid="Рустемович" f.mid="Рустемовна"/>
+    <F.Name val="Руфина"/>
+    <M.Name val="Савва" m.mid="Саввович" f.mid="Савишна"/>
+    <M.Name val="Савелий" m.mid="Савельевич" f.mid="Савельевна"/>
+    <M.Name val="Саид" m.mid="Саидович" f.mid="Саидовна"/>
+    <M.Name val="Самвел" m.mid="Самвелович" f.mid="Самвеловна"/>
+    <M.Name val="Самсон" m.mid="Самсонович" f.mid="Самсоновна"/>
+    <M.Name val="Самуил" m.mid="Самуилович" f.mid="Самуиловна"/>
+    <F.Name val="Сара"/>
+    <F.Name val="Сарра"/>
+    <F.Name val="Светлана"/>
+    <M.Name val="Святослав" m.mid="Святославович" f.mid="Святославовна"/>
+    <M.Name val="Семен" m.mid="Семенович" f.mid="Семеновна"/>
+    <M.Name val="Семён" m.mid="Семёнович" f.mid="Семёновна"/>
+    <M.Name val="Сергей" m.mid="Сергеевич" f.mid="Сергеевна"/>
+    <F.Name val="Снежана"/>
+    <M.Name val="Соломон" m.mid="Соломонович" f.mid="Соломоновна"/>
+    <F.Name val="София"/>
+    <F.Name val="Софья"/>
+    <M.Name val="Спартак" m.mid="Спартакович" f.mid="Спартаковна"/>
+    <M.Name val="Станислав" m.mid="Станиславович" f.mid="Станиславовна"/>
+    <M.Name val="Степан" m.mid="Степанович" f.mid="Степановна"/>
+    <M.Name val="Сулейман" m.mid="Сулейманович" f.mid="Сулеймановна"/>
+    <M.Name val="Султан" m.mid="Султанович" f.mid="Султановна"/>
+    <M.Name val="Сурен" m.mid="Суренович" f.mid="Суреновна"/>
+    <F.Name val="Сусанна"/>
+    <F.Name val="Таисия"/>
+    <F.Name val="Тамара"/>
+    <M.Name val="Тарас" m.mid="Тарасович" f.mid="Тарасовна"/>
+    <F.Name val="Татьяна"/>
+    <M.Name val="Теодор" m.mid="Теодорович" f.mid="Теодоровна"/>
+    <F.Name val="Теона"/>
+    <F.Name val="Тереза"/>
+    <M.Name val="Тигран" m.mid="Тигранович" f.mid="Тиграновна"/>
+    <M.Name val="Тимофей" m.mid="Тимофеевич" f.mid="Тимофеевна"/>
+    <M.Name val="Тимур" m.mid="Тимурович" f.mid="Тимуровна"/>
+    <F.Name val="Тина"/>
+    <M.Name val="Трофим" m.mid="Трофимович" f.mid="Трофимовна"/>
+    <F.Name val="Ульяна"/>
+    <F.Name val="Фаина"/>
+    <M.Name val="Фарид" m.mid="Фаридович" f.mid="Фаридовна"/>
+    <M.Name val="Федор" m.mid="Федорович" f.mid="Федоровна"/>
+    <M.Name val="Фёдор" m.mid="Фёдорович" f.mid="Фёдоровна"/>
+    <M.Name val="Федот" m.mid="Федотович" f.mid="Федотовна"/>
+    <M.Name val="Феликс" m.mid="Феликсович" f.mid="Феликсовна"/>
+    <M.Name val="Фердинанд" m.mid="Фердинандович" f.mid="Фердинандовна"/>
+    <M.Name val="Филипп" m.mid="Филиппович" f.mid="Филипповна"/>
+    <M.Name val="Флюр" m.mid="Флюрович" f.mid="Флюровна"/>
+    <M.Name val="Фома" m.mid="Фомич" f.mid="Фоминишна"/>
+    <M.Name val="Франц" m.mid="Францевич" f.mid="Францевна"/>
+    <M.Name val="Фридрих" m.mid="Фридрихович" f.mid="Фридриховна"/>
+    <M.Name val="Харитон" m.mid="Харитонович" f.mid="Харитоновна"/>
+    <M.Name val="Христофор" m.mid="Христофорович" f.mid="Христофоровна"/>
+    <M.Name val="Цезарь" m.mid="Цезаревич" f.mid="Цезаревна"/>
+    <M.Name val="Эдвард" m.mid="Эдвардович" f.mid="Эдвардовна"/>
+    <M.Name val="Эдгар" m.mid="Эдгарович" f.mid="Эдгаровна"/>
+    <M.Name val="Эдмон" m.mid="Эдмонович" f.mid="Эдмоновна"/>
+    <M.Name val="Эдмунд" m.mid="Эдмундович" f.mid="Эдмундовна"/>
+    <M.Name val="Эдуард" m.mid="Эдуардович" f.mid="Эдуардовна"/>
+    <F.Name val="Элеонора"/>
+    <F.Name val="Элла"/>
+    <F.Name val="Эльвира"/>
+    <M.Name val="Эльдар" m.mid="Эльдарович" f.mid="Эльдаровна"/>
+    <M.Name val="Эмиль" m.mid="Эмильевич" f.mid="Эмильевна"/>
+    <F.Name val="Эмма"/>
+    <M.Name val="Эммануил" m.mid="Эммануилович" f.mid="Эммануиловна"/>
+    <M.Name val="Эрик" m.mid="Эрикович" f.mid="Эриковна"/>
+    <M.Name val="Юлиан" m.mid="Юлианович" f.mid="Юлиановна"/>
+    <M.Name val="Юлий" m.mid="Юльевич" f.mid="Юльевна"/>
+    <F.Name val="Юлия"/>
+    <M.Name val="Юрий" m.mid="Юрьевич" f.mid="Юрьевна"/>
+    <M.Name val="Яков" m.mid="Яковлевич" f.mid="Яковлевна"/>
+    <M.Name val="Якуб" m.mid="Якубович" f.mid="Якубовна"/>
+    <M.Name val="Ян" m.mid="Янович" f.mid="Яновна"/>
+    <F.Name val="Яна"/>
+    <M.Name val="Ярослав" m.mid="Ярославович" f.mid="Ярославовна"/>
+    
+    
+
+
+  </Names>
+  
+</ROOT>

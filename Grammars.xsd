@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<x:schema targetNamespace="Grammars" elementFormDefault="qualified" xmlns="Grammars" xmlns:x="http://www.w3.org/2001/XMLSchema">
+
+
+  
+  <x:element name="ROOT">
+    <x:complexType>
+      <x:complexContent>
+        <x:restriction base="NSElement">
+          <x:sequence>
+            <x:element name="Grammars">
+              <x:complexType>
+                <x:complexContent>
+                  <x:restriction base="NSElement">
+                    <x:sequence>
+                      <x:element ref="Grammar" minOccurs="0" maxOccurs="unbounded"/>
+                    </x:sequence>
+                  </x:restriction>
+                </x:complexContent>
+              </x:complexType>
+            </x:element>
+            <x:element name="Names">
+              <x:complexType>
+                <x:complexContent>
+                  <x:restriction base="NSElement">
+                    <x:sequence>
+                      <x:choice minOccurs="0" maxOccurs="unbounded">
+                        <x:element name="M.Name" minOccurs="0" maxOccurs="1">
+                          <x:complexType>
+                            <x:complexContent>
+                              <x:restriction base="NSElement">
+                                <x:attribute name="val" type="x:string" use="required"/>
+                                <x:attribute name="m.mid" type="x:string" use="required"/>
+                                <x:attribute name="f.mid" type="x:string" use="required"/>
+                              </x:restriction>
+                            </x:complexContent>
+                          </x:complexType>
+                        </x:element>
+                        <x:element name="F.Name" minOccurs="0" maxOccurs="1">
+                          <x:complexType>
+                            <x:complexContent>
+                              <x:restriction base="NSElement">
+                                <x:attribute name="val" type="x:string" use="required"/>
+                              </x:restriction>
+                            </x:complexContent>
+                          </x:complexType>
+                        </x:element>
+                      </x:choice>                    
+                    </x:sequence>
+                  </x:restriction>
+                </x:complexContent>
+              </x:complexType>
+            </x:element>
+          </x:sequence>
+        </x:restriction>
+      </x:complexContent>
+    </x:complexType>
+  </x:element>
+
+
+
+
+
+  <x:element name="Grammar">
+    <x:complexType>
+      <x:complexContent>
+        <x:restriction base="NSElement">
+          <x:sequence>
+            <x:element name="Nom" type="CaseForm" minOccurs="1" maxOccurs="1"/>
+            <x:element name="Gen" type="CaseForm" minOccurs="1" maxOccurs="1"/>
+            <x:element name="Dat" type="CaseForm" minOccurs="1" maxOccurs="1"/>
+            <x:element name="Acc" type="CaseForm" minOccurs="1" maxOccurs="1"/>
+            <x:element name="Ins" type="CaseForm" minOccurs="1" maxOccurs="1"/>
+            <x:element name="Loc" type="CaseForm" minOccurs="1" maxOccurs="1"/>
+          </x:sequence>
+          <x:attribute name="for" type="GrammarTypes" use="required"/>
+          <x:attribute name="ending" type="x:string" use="required"/>
+        </x:restriction>
+      </x:complexContent>
+    </x:complexType>
+  </x:element>
+
+
+  <x:element name="NameGrammar">
+    <x:complexType>
+      <x:complexContent>
+        <x:restriction base="NSElement">
+          <x:sequence>
+            <x:element name="Case" minOccurs="6" maxOccurs="6">
+              <x:complexType>
+                <x:complexContent>
+                  <x:restriction base="NSElement">
+                    <x:attribute name="name" type="Cases" use="required"/>
+                    <x:attribute name="ending" type="x:string" use="optional"/>
+                  </x:restriction>
+                </x:complexContent>
+              </x:complexType>
+            </x:element>
+            <x:element name="Name" minOccurs="0" maxOccurs="unbounded">
+              <x:complexType>
+                <x:complexContent>
+                  <x:restriction base="NSElement">
+                    <x:attribute name="val" type="x:string" use="required"/>
+                    <x:attribute name="gender" type="Genders" use="required"/>
+                  </x:restriction>
+                </x:complexContent>
+              </x:complexType>
+            </x:element>
+          </x:sequence>
+          <x:attribute name="gender" type="Genders" use="required"/>
+          <x:attribute name="suffix" type="x:string" use="optional"/>
+        </x:restriction>
+      </x:complexContent>
+    </x:complexType>
+  </x:element>
+
+  <x:complexType name="CaseForm">
+    <x:complexContent>
+      <x:restriction base="NSElement">
+        <x:attribute name="m" type="x:string" use="optional"/>
+        <x:attribute name="f" type="x:string" use="optional"/>
+      </x:restriction>
+    </x:complexContent>
+  </x:complexType>
+
+
+
+
+
+
+
+  <x:complexType name="AAnyElement" abstract="true">
+    <x:sequence>
+      <x:any namespace="##any" minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </x:sequence>
+    <x:anyAttribute namespace="##any" processContents="lax"/>
+  </x:complexType>
+  <x:complexType name="AAnyElementMixed" abstract="true" mixed="true">
+    <x:sequence>
+      <x:any namespace="##any" minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+    </x:sequence>
+    <x:anyAttribute namespace="##any" processContents="lax"/>
+  </x:complexType>
+  <x:complexType name="NSElement" abstract="true">
+    <x:complexContent>
+      <x:restriction base="AAnyElement">
+        <x:sequence>
+          <x:any namespace="##targetNamespace" minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
+        </x:sequence>
+        <x:anyAttribute namespace="##any" processContents="lax"/>
+      </x:restriction>
+    </x:complexContent>
+  </x:complexType>
+  <x:complexType name="NSElementMixed" abstract="true" mixed="true">
+    <x:complexContent>
+      <x:restriction base="AAnyElementMixed">
+        <x:sequence>
+          <x:any namespace="##targetNamespace" minOccurs="0" maxOccurs="unbounded" processContents="lax"/>
+        </x:sequence>
+        <x:anyAttribute namespace="##any" processContents="lax"/>
+      </x:restriction>
+    </x:complexContent>
+  </x:complexType>
+
+
+
+
+  <x:simpleType name="Cases">
+    <x:restriction base="x:string">
+      <x:enumeration value="nom"/>
+      <x:enumeration value="gen"/>
+      <x:enumeration value="dat"/>
+      <x:enumeration value="acc"/>
+      <x:enumeration value="ins"/>
+      <x:enumeration value="loc"/>
+    </x:restriction>
+  </x:simpleType>
+  <x:simpleType name="Genders">
+    <x:restriction base="x:string">
+      <x:enumeration value="n"/>
+      <x:enumeration value="f"/>
+      <x:enumeration value="m"/>
+    </x:restriction>
+  </x:simpleType>
+  <x:simpleType name="GrammarTypes">
+    <x:restriction base="x:string">
+      <x:enumeration value="name"/>
+      <x:enumeration value="midname"/>
+      <x:enumeration value="surname"/>
+    </x:restriction>
+  </x:simpleType>
+
+</x:schema>
